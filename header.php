@@ -22,6 +22,6 @@
 <body>
     <nav class="navbar  bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand text-white" href="index.php">IA - Global Project - ASIX2 - GRUP 06</a>
+            <a class="navbar-brand text-white" href="index.php">Ivan Balanza - gp1f5a15 2024/02/22</a>
         </div>
     </nav>
