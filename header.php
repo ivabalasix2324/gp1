@@ -1,8 +1,7 @@
 <?php
     if (getenv('HOSTNAME')) {
         $containerID = getenv('HOSTNAME');
-        $containerName = gethostname();
-        echo "<script>console.log('Este script se está ejecutando en el contenedor: ID:$containerID Name:$containerName');</script>";
+        echo "<script>console.log('Este script se está ejecutando en el contenedor con ID:$containerID');</script>";
     } else {
         echo "<script>console.log('No se puede determinar el ID o el nombre del contenedor.')</script>";
     }
